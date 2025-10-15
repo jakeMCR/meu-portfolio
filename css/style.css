@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#FFFAFA;
+}
+
+h1 {
+   font-weight: bold;
+   color: #333;
+}
+
+.card {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border: none;
+     transition: transform 0.2s;
+}
+
+.card:hover {
+          transform: scale(1.03);
+}
+
+.card img {
+        border-radius: 5px 5px 0 0;
+}
